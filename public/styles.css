@@ -6,6 +6,7 @@ body
 background-image:url("assets/so-white/so-white.png");
 /* font-family: 'Architects Daughter', cursive;
 font-size:1.1em; */
+font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -36,8 +37,10 @@ text-shadow: 0px 0px 3px #AAAAAA;
 
 .initials {
       position: relative;
-      top: 23px;
-      font-size: 30px;
-      line-height: 30px;
+      top: 20px;
+      font-size: 50px;
+      line-height: 33px;
       color: #fff; 
+font-family: 'Amatic SC', cursive;
+
     }
