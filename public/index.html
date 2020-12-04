@@ -8,62 +8,14 @@
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-<!-- Using Fonts -->
-<!---
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
--->
-<!-- https://codediode.io/lessons/198632-default-avatars-with-username-initials -->
-<style>
-
-body
-{
-/* background-image:url("assets/canadian-dollar/canadian-dollar.png"); */
-/* background-image:url("assets/repeated-square/repeated-square.png"); */
-/* background-image:url("assets/webb/webb.png"); */
-background-image:url("assets/so-white/so-white.png");
-/* font-family: 'Architects Daughter', cursive;
-font-size:1.1em; */
-
-}
-
-.avatar-circle {
-    width: 75px;
-    height: 75px;
-    background-color: gray;
-    text-align: center;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-
-    
-}
-
-.initials {
-      position: relative;
-      top: 20px;
-      font-size: 30px;
-      line-height: 30px;
-      color: #fff;      
-      
-    }
-
-
-
-</style>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css" >
 </head>
 <body>
-<!-- Optional JavaScript; choose one of the two! -->
-<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<!-- jQuery and Bootstrap Bundle (includes Popper) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script>$(function () {$('[data-toggle="tooltip"]').tooltip()})</script>
-<!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
--->
 <br>
 <div class="container">
 	<!-- Content here -->
@@ -87,13 +39,14 @@ font-size:1.1em; */
 
 		</div>
 	<div class="col-md-3">
-<svg class="bi" width="32" height="32" fill="currentColor"><use xlink:href="bootstrap-icons.svg#geo-alt"/></svg> Córdoba (Spain)<br>
-<svg class="bi" width="32" height="32" fill="currentColor"><use xlink:href="bootstrap-icons.svg#phone"/></svg> +34 659 49 89 31<br>
-<svg class="bi" width="32" height="32" fill="currentColor"><use xlink:href="bootstrap-icons.svg#envelope"/></svg> daniel@onimagin.com
+<svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#geo-alt"/></svg> Córdoba (Spain)<br>
+<svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#phone"/></svg> +34 659 49 89 31<br>
+<svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#envelope"/></svg> daniel@onimagin.com
 
 
 	</div>
 	<div class="col-md-3">
+		<img src="notarobot.png"" class="img-responsive hidden-xs" width="150px;" >
 	</div>
 </div>
 
@@ -111,39 +64,42 @@ font-size:1.1em; */
 </div>
 <div class="col">
 <svg class="bi" width="32" height="32" fill="currentColor"><use xlink:href="bootstrap-icons.svg#at"/></svg> <a href="https://www.linkedin.com/in/danielperezrodriguez/" target="_blank" title="Twitter">LinkedIn</a>
-
 </div>
-
 </div>
-
 
 <hr>
 
-
 <div class="row">
-		<div class="col-md-8">
-<h4>Who Am I</h4>
+	<div class="col-md-8">
+		<h4>Who Am I</h4>
 
 <div class="row">
 <div class="col-md-3"><br>
 <!-- <img src="dpr.jpg" class="img-fluid rounded" /> -->
-<img class="img-fluid rounded" id="imgAbout-front2" src="https://www.wimasis.com/img/about-us/perez.png" alt="daniel perez" data-toggle="tooltip" data-placement="top" title="I'm just a nice guy" >
+<img class="img-fluid rounded" src="https://www.wimasis.com/img/about-us/perez.png" alt="Daniel Pérez" data-toggle="tooltip" data-placement="top" title="I'm just a nice guy" >
 </div>
 <div class="col-md-9">
 <br>
 <p style="text-align:justify;">
-Comencé mi carrera profesional como administrador de sistemas en Ingenia, entrando posteriormente en el ámbito de I+D en robótica como asistente a la investigación en el GRVC de la Universidad de Sevilla.  Posteriormente y tras casi 2 años fantásticos en Wimasis SL decidí afrontar el emprendimiento y el autoempleo como  mi labor profesional en mi ciudad natal.</p>
+I started my professional career as a (CLASSIC!) systems administrator in <i>Ingenia</i>.  
+My next stop was at the <i>GRVC of the University of Seville</i>, working for five years as a research assistant in robotics (PhD assault pending). At some point I decided to go back to my city of birth (Córdoba) and enjoying two fantastic years at <i>Wimasis</i>, where the seed of Onimagin Technologies was planted.  After that I decided to face entrepreneurship and selfemployment and started a long colaboration with <i>Phytoplant Research</i>.</p>
+</p>
+
 </div>
 </div>
 
 <br>
 <p style="text-align:justify;">
-Tras varios intensos años apoyando el proyecto de Phytoplant Research decidí centrar mis esfuerzos en mi proyecto más personal hasta la fecha Onimagin Technologies, donde codo a codo junto a mis maravillosos compañeros transformamos imágenes en datos y realidad.</p>
+	After several intense years supporting the Phytoplant Research project, the time has finally come for <i>Onimagin
+		Technologies</i>, where side by side with my <i>AWESOME COLLEAGUES</i> we transform images (and data) into
+	reality.
+</p>
 <center>
-<a href="https://www.onimagin.com" target="_blank" data-toggle="tooltip" data-placement="top" title="Hire us! We are really good" >
-<img src="https://www.onimagin.com/wp-content/uploads/2016/09/onimagin-web.png" alt="Onimagin Technologies" style="width:200px;">
-</a>
-
+	<a href="https://www.onimagin.com" target="_blank" data-toggle="tooltip" data-placement="top"
+		title="Hire us! We are really good">
+		<img src="https://www.onimagin.com/wp-content/uploads/2016/09/onimagin-web.png" alt="Onimagin Technologies"
+			style="width:200px;">
+	</a>
 </center>
 
 		</div>
@@ -151,27 +107,27 @@ Tras varios intensos años apoyando el proyecto de Phytoplant Research decidí c
 <h4 data-toggle="tooltip" data-placement="top"  title="We will never reach 100% because we are always learning :)">Technical Skills</h4>
 		PHP
 		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
 		<br>
 		C/C++
 		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
 		<br>
 		ShellScript
 		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
 		<br>
 		Sysadmin
 		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
 		<br>
 		Cloud Computing
 		<div class="progress">
-		  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
 <center><small>  </small></center>
 	</div>
@@ -183,10 +139,10 @@ Tras varios intensos años apoyando el proyecto de Phytoplant Research decidí c
 <div class="row">
 <div class="col-md-2">2016 - Today</div>
 <div class="col-md-10">
-<strong>Onimagin Technologies SCA - Córdoba (Spain)</strong><br>
-<i>Founder and Information Systems. <a href="https://www.onimagin.com" target="_blank" title="Onimagin Technologies SCA">www.onimagin.com</a></i><br>
+<strong>Onimagin Technologies</strong><a class="float-right" href="https://www.onimagin.com" target="_blank" title="Onimagin Technologies SCA">www.onimagin.com</a><br>
+<i>Founder and Information Systems.</i><br>
 <p style="text-align:justify;">
-Image Analysis Startup.  Our emblem is "Turning Images into reality".  With Wimasis as our flagship and main poject we try to find partners and clients to apply image analysis algorythms and AI techniques to transform our world.
+Image Analysis Startup.  Our emblem is <i>Turning Images into reality</i>.  With Wimasis as our flagship and main project we try to find partners and clients to apply image analysis algorithms and AI techniques to transform our world.
 </p>
 </div>
 </div>
@@ -196,11 +152,13 @@ Image Analysis Startup.  Our emblem is "Turning Images into reality".  With Wima
 <div class="row">
 <div class="col-md-2">2014 - 2017</div>
 <div class="col-md-10">
-<strong>Phytoplant Research SL. - Córdoba (Spain).</strong><br>
-<i>IT Engineer. <a href="https://www.phytoplantresearch.com/" target="_blank" title="GRVC Robotics, Vision and Control Group">www.phytoplantresearch.com</a></i><br>
+<strong>Phytoplant Research</strong><a class="float-right" href="https://www.phytoplantresearch.com/" target="_blank"
+	title="GRVC Robotics, Vision and Control Group">www.phytoplantresearch.com</a><br>
+<i>IT Engineer.</i><br>
 <p style="text-align:justify;">
-Miembro del departamento de Ingeniería y Control, repsonsable de todos los servicios IT en la empresa, desarrollando sistemas integrados de gestión de datos basados en IoT para agricultura inteligente y de precisión así como prestando labores de asistencia a la investigación: análisis de datos, automatización de procesos, integración de equipos, ...
-</p>
+Member of the Engineering and Control department, responsible for all IT services in the company, developing an integrated
+data management system, using (and also designing) IoT devices for intelligent and precision agriculture as well as providing general research support:
+data analysis, process automation, equipment integration, ...</p>
 </div>
 </div>
 
@@ -209,10 +167,12 @@ Miembro del departamento de Ingeniería y Control, repsonsable de todos los serv
 <div class="row">
 <div class="col-md-2">2013 - 2014</div>
 <div class="col-md-10">
-<strong>Wimasis SL. - Córdoba (Spain).</strong><br>
-<i>Head of Processing Center. <a href="https://www.wimasis.com" target="_blank" title="GRVC Robotics, Vision and Control Group">www.wimasis.com</a></i><br>
+<strong>Wimasis</strong><a class="float-right" href="https://www.wimasis.com" target="_blank" title="GRVC Robotics, Vision and Control Group">www.wimasis.com</a><br>
+<i>Head of Processing Center.</i><br>
 <p style="text-align:justify;">
-Diseño y gestión de plataforma de análisis de imágenes basada en visión por computador. Usando tecnologías como Apache, Mysql, Torque, XEN, Shellscripting, PHP Prado Framework, para mantener un cluster balanceado de alto rendimiento y alta disponibilidad.  El germen que inició Onimagin Technologies.
+Design and management of image analysis platform based on computer vision. Using technologies such as Apache, Mysql,
+Torque, XEN, Shellscripting, PHP Prado Framework, to maintain a balanced cluster of high performance and high
+availability. The germ that started Onimagin Technologies.
 </p>
 </div>
 </div>
@@ -222,10 +182,10 @@ Diseño y gestión de plataforma de análisis de imágenes basada en visión por
 <div class="row">
 <div class="col-md-2">2008 - 2013</div>
 <div class="col-md-10">
-<strong>GRVC Robotics, Vision and Control Group. - Sevilla (Spain).</strong><br>
-<i>Research Assistant. <a href="https://grvc.us.es" target="_blank" title="GRVC Robotics, Vision and Control Group">grvc.us.es</a></i><br>
+<strong>GRVC Robotics, Vision and Control Group</strong><a class="float-right" href="https://grvc.us.es" target="_blank" title="GRVC Robotics, Vision and Control Group">grvc.us.es</a><br>
+<i>Research Assistant.</i><br>
 <p style="text-align:justify;">
-Investigador en diversos proyectos nacionales e internacionales en temáticas de robótica aérea y terrestre cooperativa utilizando diversas tecnologías.
+Research Assistant in several national and international projects about air and land cooperative robotics integrating different technologies.  The main projects I was working for were:
 <ul>
 <li>URUS - Ubiquitous networking Robotics in Urban Settings.</li>
 <li>ROBAUCO - Autonomous and Cooperating Robots.</li>
@@ -241,10 +201,13 @@ Investigador en diversos proyectos nacionales e internacionales en temáticas de
 <div class="row">
 <div class="col-md-2">2006 - 2008</div>
 <div class="col-md-10">
-<strong>Ingenia, Ingeniería e Integración Avanzadas SL. - Sevilla (Spain).</strong><br>
-<i>Sysadmin. <a href="https://ingenia.es" target="_blank" title="Ingenia, Ingeniería e Integración Avanzadas SL">www.ingenia.es</a></i><br>
+<strong>Ingenia, Ingeniería e Integración Avanzadas</strong><a class="float-right" href="https://ingenia.es" target="_blank" title="Ingenia, Ingeniería e Integración Avanzadas">www.ingenia.es</a><br>
+<i>Sysadmin.</i><br>
 <p style="text-align:justify;">
-Realizando labores de Administración de Sistemas en entornos Linux, Windows y Solaris. Usando tecnologías como Weblogic, Oracle, MySQL, Apache, Tomcat, para el Centro de Proceso de Datos del Servicio Andaluz de Empleo (S.A.E.). Configuración de Servidores de Desarrollo y Pruebas. Instalación y Mantenimiento de entornos GForge. Programación de aplicaciones Web (JAVA, PHP, HTML, MySQL). Desarrollo de distribuciones Linux a medida del Cliente.
+Performing System Administration tasks in Linux, Windows and Solaris environments. Using technologies such as Weblogic,
+Postgre SQL, MySQL, Apache, Tomcat ... for the Data Processing Center of the Andalusian Employment Service. Development
+and Testing Servers Configuration. Installation and Maintenance of GForge environments. Web applications programming
+(JAVA, PHP, HTML, MySQL). Development of custom Linux distributions.
 </p>
 </div>
 </div>
@@ -254,10 +217,10 @@ Realizando labores de Administración de Sistemas en entornos Linux, Windows y S
 <div class="row">
 <div class="col-md-2">2005 - 2006</div>
 <div class="col-md-10">
-<strong>FASA Renault SL. - Sevilla (Spain).</strong><br>
-<i>Student Grant. <a href="https://www.renault.es/" target="_blank" title="FASA Renault SL">www.renault.es</a></i><br>
+<strong>FASA Renault SL.</strong><a class="float-right" href="https://www.renault.es/" target="_blank" title="FASA Renault SL">www.renault.es</a><br>
+<i>Student Grant.</i><br>
 <p style="text-align:justify;">
-Realizando labores de Gestión de los stocks de repuestos y Mantenimiento de las Bases de Datos de los Repuestos utilizados en la fábrica. 
+Maintenance of the database of spare parts used in the factory.
 </p>
 </div>
 </div>
@@ -267,11 +230,11 @@ Realizando labores de Gestión de los stocks de repuestos y Mantenimiento de las
 <div class="row">
 <div class="col-md-2">2005 - 2006</div>
 <div class="col-md-10">
-<strong>MC INnformatica SL - Córdoba (Spain).</strong><br>
-<i>Student Grant. <a href="https://www.mcinformatica.com" target="_blank" title="Ingenia, Ingeniería e Integración Avanzadas SL">www.mcinformatica.com</a></i><br>
+<strong>MC Informatica</strong><a class="float-right" href="https://www.mcinformatica.com" target="_blank"
+	title="MC Informatica">www.mcinformatica.com</a><br>
+<i>Student Grant.</i><br>
 <p style="text-align:justify;">
-Realizadas en el departamento de I+D. Estudio de viabilidad de un Quiosco Electrónico Autónomo, alimentado por energía solar.
-</p>
+Conducted in the R&D department. Feasibility study of an Autonomous Electronic Kiosk, powered by solar energy.</p>
 </div>
 </div>
 
@@ -282,8 +245,8 @@ Realizadas en el departamento de I+D. Estudio de viabilidad de un Quiosco Electr
 <div class="row">
 <div class="col-md-2">2019 - 2020</div>
 <div class="col-md-10">
-<strong>Master in Teaching</strong><br>
-<i>Master. University of Córdoba <a href="https://www.uco.es/" target="_blank" title="Master. University of Córdoba">www.uco.es</a></i><br>
+<strong>Master in Teaching</strong><a class="float-right" href="https://www.uco.es/" target="_blank" title="Master. University of Córdoba">www.uco.es</a><br>
+<i>Master. University of Córdoba</i><br>
 <p style="text-align:justify;">
 
 </p>
@@ -295,8 +258,8 @@ Realizadas en el departamento de I+D. Estudio de viabilidad de un Quiosco Electr
 <div class="row">
 <div class="col-md-2">2013 - 2014</div>
 <div class="col-md-10">
-<strong>Master in Intelligent Systems</strong><br>
-<i>Master. University of Córdoba <a href="https://www.uco.es" target="_blank" title="Master. University of Córdoba">www.us.es</a></i><br>
+<strong>Master in Intelligent Systems</strong><a class="float-right" href="https://www.uco.es/" target="_blank" title="Master. University of Córdoba">www.uco.es</a><br>
+<i>Master. University of Córdoba</i><br>
 <p style="text-align:justify;">
 
 </p>
@@ -308,9 +271,8 @@ Realizadas en el departamento de I+D. Estudio de viabilidad de un Quiosco Electr
 <div class="row">
 <div class="col-md-2">1998 - 2012</div>
 <div class="col-md-10">
-<strong>Telecommunications Engineer</strong><br>
-<i>Bachelor Degree. University of Sevilla </i><br>
-<a href="https://www.us.es" target="_blank" title="Bachelor Degree. University of Sevilla">www.us.es</a>
+<strong>Telecommunications Engineer</strong><a class="float-right" href="https://www.us.es/" target="_blank" title="Bachelor. University of Sevilla">www.us.es</a><br>
+<i>Bachelor. University of Sevilla </i><br>
 <p style="text-align:justify;">
 
 </p>
@@ -323,66 +285,86 @@ Realizadas en el departamento de I+D. Estudio de viabilidad de un Quiosco Electr
 
 <br>
 <div class="row">
-<div class="col-md-2">2014</div>
+<div class="col-md-2">2014<br>
+<a href="assets/tfm.pdf" target="_blank" title="Sistema de guiado automático para robot autónomo móvil basado en visión por computador y lógica difusa." class=""><svg class="bi" width="32" height="32" fill="currentColor"><use xlink:href="bootstrap-icons.svg#cloud-download" /></svg></a>
+</div>
 <div class="col-md-10">
 <strong>Sistema de guiado automático para robot autónomo móvil basado en visión por computador y lógica difusa.</strong><br>
 <i>Master Thesis. University of Sevilla.</i><br>
 <p style="text-align:justify;">
 <u>Abstract</u>: En la página oficial del Máster, se define la Inteligencia Artificial (IA) como la disciplina que se ocupa de la investigación básica en la implementación de cada una de las habilidades relacionadas con la inteligencia humana. Así, los Sistemas Inteligentes se encargan de aplicar la investigación, tratando de solucionar problemas ya existentes o mejorar nuestra forma de trabajar o calidad de vida aplicando técnicas de Inteligencia Artificial. Este Trabajo Fin de Máster (TFM) es sin duda un poquito de todo eso, ya que trata de aplicar dichas técnicas y metodologías a un problema universal del ser humano, como es el transporte, en concreto en la conducción de vehículos, un campo de trabajo que podría facilitar enormemente la calidad de vida de las personas, usándose como sistemas de asistencia a la conducción o incluso disminuir el número de accidentes y muertes en accidentes de tráfico.
 </p>
-<a href="assets/tfm.pdf" target="_blank" title="Sistema de guiado automático para robot autónomo móvil basado en visión por computador y lógica difusa." class="btn btn-sm btn-secondary">Download</a>
 </div>
 </div>
 
 <br>
 <div class="row">
-<div class="col-md-2">2013</div>
+<div class="col-md-2">2013<br>
+<a href="assets/pfc.pdf" target="_blank"
+	title="Diseño e implementación de interfaz persona máquina y sistema de análisis post-misión para robot autónomo móvil Romeo-4R."
+	class=""><svg class="bi" width="32" height="32" fill="currentColor">
+		<use xlink:href="bootstrap-icons.svg#cloud-download" /></svg></a>
+	</div>
 <div class="col-md-10">
 <strong> Diseño e implementación de interfaz persona máquina y sistema de análisis post-misión para robot autónomo móvil Romeo-4R.</strong><br>
 <i>Bachelor Thesis. University of Sevilla </i><br>
 <p style="text-align:justify;">
 <u>Abstract</u>: Este proyecto fin de carrera se centra en recoger el trabajo desarrollado por el autor en el contexto del proyecto URUS, desde septiembre de 2008 hasta junio de 2009, a través de una beca en el Grupo de Robótica, Visión y Control, participante activo del proyecto URUS. Dicho trabajo consistió principalmente en el diseño y realización de una interfaz hombre máquina para el control del robot Romeo-4R, así como alguna labor de soporte y apoyo en otros aspectos del mantenimiento y desarrollo de los módulos del robot, destacando en estos aspectos el desarrollo del sistema de análisis Post-Misión, o aplicación Logplayer, para la reproducción de los experimentos realizados en la realidad en un entorno de simulación.
 </p>
-<a href="assets/pfc.com" target="_blank" title="Diseño e implementación de interfaz persona máquina y sistema de análisis post-misión para robot autónomo móvil Romeo-4R." class="btn btn-sm btn-secondary">Download</a>
 </div>
 </div>
 <br>
 
 <div class="row">
-<div class="col-md-2">2013</div>
+<div class="col-md-2">2013
+	<br>
+	<a href="https://www.researchgate.net/publication/257581369_A_Ground_Control_Station_for_a_Multi-UAV_Surveillance_System" target="_blank"
+		title="A Ground Control Station for a Multi-UAV Surveillance System: Design and Validation in Field Experiments."
+		class=""><svg class="bi" width="32" height="32" fill="currentColor">
+			<use xlink:href="bootstrap-icons.svg#link-45deg" /></svg></a>
+</div>
 <div class="col-md-10">
 <strong>A Ground Control Station for a Multi-UAV Surveillance System: Design and Validation in Field Experiments.</strong><br>
 <i>Research Paper. Pérez, D., Maza, I., Caballero, F., Scarlatti, D., Casado, E. and Ollero, A. Journal of Intelligent and Robotic Systems: Theory and Applications.</i><br>
 <p style="text-align:justify;">
 <u>Abstract</u>: This paper presents the ground control station developed for a platform composed by multiple unmanned aerial vehicles for surveillance missions. The software application is fully based on open source libraries and it has been designed as a robust and decentralized system. It allows the operator to dynamically allocate different tasks to the UAVs and to show their operational information in a 3D realistic environment in real time. The ground control station has been designed to assist the operator in the challenging task of managing a system with multiple UAVs, trying to reduce his workload. The multi-UAV surveillance system has been demonstrated in field experiments using two quadrotors equipped with visual cameras.
 </p>
-<a href="https://www.researchgate.net/publication/257581369_A_Ground_Control_Station_for_a_Multi-UAV_Surveillance_System" target="_blank" title="A Ground Control Station for a Multi-UAV Surveillance System: Design and Validation in Field Experiments." class="btn btn-sm btn-secondary">Download</a>
 </div>
 </div>
 <br>
 
 <div class="row">
-<div class="col-md-2">2011</div>
+<div class="col-md-2">2011<!-- <br>
+<a href="#"
+	target="_blank"
+	title="Rapid Development of Integrated 3D Terrain Maps using Light Unmanned Aerial Vehicles."
+	class=""><svg class="bi" width="32" height="32" fill="currentColor">
+		<use xlink:href="bootstrap-icons.svg#link-45deg" /></svg></a> -->
+</div>
 <div class="col-md-10">
 <strong>Rapid Development of Integrated 3D Terrain Maps using Light Unmanned Aerial Vehicles.</strong><br>
 <i>Proceedings. Heredia, G., Cobano, J.A., Pérez, et al. Workshop on Research, Development and Education on Unmanned Aerial Systems (RED-UAS).</i><br>
 <p style="text-align:justify;">
 <u>Abstract</u>: This paper presents a new system for the rapid development of integrated 3D terrain maps using a lightweight Airborne Laser Scanning (ALS) mounted on a light UAV. One of the ALS is the generation of digital terrain models and digital surface models. ALS is usually done with manned aircraft or medium to large size Unmanned Aerial Vehicles (UAVs). Also, a camera is mounted on the UAV and an image mosaic is built from aerial images. The system can be transported in a small van and deployed and operated by two persons in short time, and therefore it can be used in time-critical event response systems for emergency situations. Experiments have been performed in a Spanish airfield.
 </p>
-<a href="#" target="_blank" title="Rapid Development of Integrated 3D Terrain Maps using Light Unmanned Aerial Vehicles." class="btn btn-sm btn-secondary">Download</a>
 </div>
 </div>
 <br>
 
 <div class="row">
-<div class="col-md-2">2013</div>
+<div class="col-md-2">2013
+	<br>
+	<a href="assets/conmutacion.pdf" target="_blank"
+		title="Class Notes. Conmutacion."
+		class=""><svg class="bi" width="32" height="32" fill="currentColor">
+			<use xlink:href="bootstrap-icons.svg#cloud-download" /></svg></a>
+</div>
 <div class="col-md-10">
 <strong>Conmutación.</strong><br>
 <i>Class Notes. </i><br>
 <p style="text-align:justify;">
 <u>Abstract</u>: Esta pequeña aventura personal no pretende ser sino una pequeña luz, para alumbrar este oscuro camino, en el que para algún que otro alumno desorientado (como un servidor en más de un momento) se ha convertido CONMUTACIÓN, la asignatura troncal de 6 créditos de quinto curso de la titulación de Ingeniero de Telecomunicación, plan de estudios de 1998, de la  Escuela Superior de Ingenieros de la Universidad de Sevilla.
 </p>
-<a href="assets/conmutacion.pdf" target="_blank" title="Class Notes. Conmutacion." class="btn btn-sm btn-secondary">Download</a>
 </div>
 </div>
 
