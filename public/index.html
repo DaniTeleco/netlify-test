@@ -156,13 +156,13 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
 		
 <script>
 
-		Highcharts.chart('container', {
+Highcharts.chart('container', {
 
     chart: {
         type: 'bubble',
         plotBorderWidth: 1,
         zoomType: 'xy',
-	backgroundColor: 'transparent'
+       	backgroundColor: 'transparent'
     },
 
     legend: {
@@ -170,7 +170,7 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
     },
 
     title: {
-        text: ''
+        text: 'IT Skills'
     },
 
     subtitle: {
@@ -186,7 +186,7 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
     xAxis: {
         gridLineWidth: 1,
         title: {
-            text: 'Software Development'
+            text: 'Internal Tool/Projects'
         },
         labels: {
             format: '{value} %'
@@ -215,7 +215,7 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
         startOnTick: false,
         endOnTick: false,
         title: {
-            text: 'SysAdmin'
+            text: 'External Tool/Projects'
         },
         labels: {
             format: '{value} %'
@@ -269,8 +269,32 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
             { x: 60, y: 102.5, z: 10, name: 'Bash'},
             { x: 80, y: 86.1, z: 10, name: 'Matlab'},
             { x: 100, y: 70.1, z: 10, name: 'Python'},            
-        ]
-    }]
+        ],
+        
+    },
+    {
+        data: [ 
+            { x: -20, y: 0, z: 10, name: 'Server Management' },
+            { x: -40, y: 20, z: 10, name: 'Cloud Computing'},
+            { x: -60, y: 91.5, z: 10, name: 'Standalone'},
+            { x: 80, y: 102.5, z: 10, name: 'Web'},
+            { x: 80, y: 102.5, z: 10, name: 'API Rest'},
+            
+        ],
+        
+    },
+    {
+        data: [ 
+            { x: 20, y: -20, z: 10, name: 'Computer Vision' },
+            { x: 40, y: -40, z: 10, name: 'Machine Learning'},
+            { x: 60, y: -60, z: 10, name: 'AI'},           
+            
+        ],
+        
+    }
+    
+    
+    ]
 
 });
 		</script>
