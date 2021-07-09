@@ -186,7 +186,7 @@ Highcharts.chart('container', {
     xAxis: {
         gridLineWidth: 1,
         title: {
-            text: 'Internal Tool/Projects'
+            text: 'Internal Projects'
         },
         labels: {
             format: '{value} %'
@@ -215,7 +215,7 @@ Highcharts.chart('container', {
         startOnTick: false,
         endOnTick: false,
         title: {
-            text: 'External Tool/Projects'
+            text: 'External Projects'
         },
         labels: {
             format: '{value} %'
@@ -245,8 +245,8 @@ Highcharts.chart('container', {
         useHTML: true,
         headerFormat: '<table>',
         pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' +
-            '<tr><th>Soft Development:</th><td>{point.x} %</td></tr>' +
-            '<tr><th>Dev Ops:</th><td>{point.y} %</td></tr>' +
+            '<tr><th>Used in internal projects:</th><td>{point.x} %</td></tr>' +
+            '<tr><th>Used in external projects:</th><td>{point.y} %</td></tr>' +
             '<tr><th>Value:</th><td>{point.z}%</td></tr>',
         footerFormat: '</table>',
         followPointer: true
