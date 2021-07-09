@@ -143,7 +143,138 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
 
 		</div>
 	<div class="col-md-4">
-<h4 data-toggle="tooltip" data-placement="top"  title="We will never reach 100% because we are always learning :)">Technical Skills</h4>
+<h4 data-toggle="tooltip" data-placement="top"  title="Just an idea">Technical Skills</h4>
+		<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<!-- <script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>-->
+<script src="https://code.highcharts.com/modules/accessibility.js"></script> 
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+</figure>
+		
+<script>
+
+		Highcharts.chart('container', {
+
+    chart: {
+        type: 'bubble',
+        plotBorderWidth: 1,
+        zoomType: 'xy'
+    },
+
+    legend: {
+        enabled: false
+    },
+
+    title: {
+        text: 'IT Skills'
+    },
+
+    subtitle: {
+        text: 'Software Capabilities'
+    },
+
+    accessibility: {
+        point: {
+            valueDescriptionFormat: '{index}. {point.name}, fat: {point.x}g, sugar: {point.y}g, obesity: {point.z}%.'
+        }
+    },
+
+    xAxis: {
+        gridLineWidth: 1,
+        title: {
+            text: 'Software Development'
+        },
+        labels: {
+            format: '{value} %'
+        },
+        plotLines: [{
+            color: 'black',
+            dashStyle: 'dot',
+            width: 2,
+            value: 0,
+            label: {
+                rotation: 0,
+                y: 15,
+                style: {
+                    fontStyle: 'italic'
+                },
+                text: 'AAA'
+            },
+            zIndex: 3
+        }],
+        accessibility: {
+            rangeDescription: 'CCC.'
+        }
+    },
+
+    yAxis: {
+        startOnTick: false,
+        endOnTick: false,
+        title: {
+            text: 'SysAdmin'
+        },
+        labels: {
+            format: '{value} %'
+        },
+        maxPadding: 0.2,
+        plotLines: [{
+            color: 'black',
+            dashStyle: 'dot',
+            width: 2,
+            value: 0,
+            label: {
+                align: 'right',
+                style: {
+                    fontStyle: 'italic'
+                },
+                text: 'DDDD',
+                x: 10
+            },
+            zIndex: 3
+        }],
+        accessibility: {
+            rangeDescription: 'BBBB.'
+        }
+    },
+
+    tooltip: {
+        useHTML: true,
+        headerFormat: '<table>',
+        pointFormat: '<tr><th colspan="2"><h3>{point.name}</h3></th></tr>' +
+            '<tr><th>Soft Development:</th><td>{point.x} %</td></tr>' +
+            '<tr><th>Dev Ops:</th><td>{point.y} %</td></tr>' +
+            '<tr><th>Value:</th><td>{point.z}%</td></tr>',
+        footerFormat: '</table>',
+        followPointer: true
+    },
+
+    plotOptions: {
+        series: {
+            dataLabels: {
+                enabled: true,
+                format: '{point.name}'
+            }
+        }
+    },
+
+    series: [{
+        data: [
+            { x: 0, y: 0, z: 10, name: 'PHP' },
+            { x: 20, y: 20, z: 10, name: 'C'},
+            { x: 40, y: 91.5, z: 10, name: 'C++'},
+            { x: 60, y: 102.5, z: 10, name: 'Bash'},
+            { x: 80, y: 86.1, z: 10, name: 'Matlab'},
+            { x: 100, y: 70.1, z: 10, name: 'Python'},            
+        ]
+    }]
+
+});
+		</script>
+
+		<!--
 		PHP
 		<div class="progress">
 		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
@@ -168,6 +299,7 @@ My next stop was at the <i>GRVC of the University of Seville</i>, working for fi
 		<div class="progress">
 		  <div class="progress-bar progress-bar-striped bg-default" role="progressbar" style="width: 80%; background-color:gray !important;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 		</div>
+		-->
 <!-- <br>
 <small>This year ...</small>
 <img src="https://grass-graph.moshimo.works/images/daniteleco.png" class="img-responsive" width="100%">
